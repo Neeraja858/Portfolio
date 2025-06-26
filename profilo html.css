@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+}
+
+.home {
+    color: grey;
+}
+
+.icons {
+    height: 7vh;
+    width: 10vw;
+}
+
+.paragraph {
+    font-size: 15px;
+}
+
+.hello-button {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 7vh;
+    width: 12vw;
+}
+
+.dark-mode {
+    background-color: #111111;
+    color: #f1f1f1;
+}
+
+.name {
+    text-decoration: unerline;
+    color: grey;
+}
+
+.main-section {
+    padding: 4rem 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.hero-image {
+    border-radius: 50%;
+    background-color: #f9e300;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin: 1rem auto;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.social-icons a {
+    display: block;
+    margin: 0.4rem 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn-custom {
+    margin: 0.5rem;
+}
+
+.highlight-yellow {
+    background-color: #f9e300;
+}
+
+.about-section {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-section .highlight {
+    font-weight: bold;
+}
+
+.shape {
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.shape-yellow {
+    background-color: #f9e300;
+}
+
+.shape-grey {
+    background-color: #bdbdbd;
+}
+
+.theme-toggle {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .social-icons {
+        position: relative !important;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-image {
+        width: 140px;
+        height: 140px;
+    }
+
+    .about-section {
+        padding: 1rem;
+    }
